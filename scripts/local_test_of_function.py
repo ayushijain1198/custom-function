@@ -36,13 +36,13 @@ This file will be written to the working directory.
 
 '''
 
-from customayushi.functions import Count1
+from customayushi.functions import Resistance
 
-fn = Count1(name='AS_Tester', greeting_col='greeting')
+fn = Resistance(resistance='resistance')
 fn.execute_local_test(db=db, db_schema=db_schema)
 
 '''
 Register function so that you can see it in the UI
 '''
 
-db.register_functions([Count1])
+#db.register_functions([Resistance])
