@@ -8,7 +8,7 @@ logger = logging.getLogger(__name__)
 # Specify the URL to your package here.
 # This URL must be accessible via pip install
 
-PACKAGE_URL = 'git@github.com:ayushijain1198/custom-function.git'
+PACKAGE_URL = 'git@github.ibm.com:abkgupta/funtemp.git'
 
 
 class Resistance(BaseTransformer):
